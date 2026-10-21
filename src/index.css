@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply m-0 min-w-64 bg-[#101110] font-sans text-[#f1f2ed] antialiased;
+  }
+  button, input {
+    @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c6f4b0];
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
